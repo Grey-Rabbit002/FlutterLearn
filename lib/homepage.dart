@@ -15,7 +15,7 @@ class homePage extends StatelessWidget {
           child: Text("welcome $name"),
         ),
       ),
-      drawer: Drawer(),
+      drawer: const Drawer(),
     );
   }
 }
